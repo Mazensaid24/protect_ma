@@ -1,0 +1,32 @@
+{
+  "name": "𝗡𝗶𝗡𝗝𝗔 𝗦𝗼𝗨𝗿𝗖𝗲",
+  "description": "تنصيب بوتات حماية",
+  "logo": "https://telegra.ph/file/4df54bf139c38e1cfc7a7.jpg",
+  "repository": "https://github.com/Mazensaid24/protect_ma",
+    "env": {
+        "ELHYBA": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API Id from my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "Your Id On Telegram",
+            "value": ""                                    
+	   }
+	},
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "scripts": {
+    "start": "python main.py"
+  }
+}
